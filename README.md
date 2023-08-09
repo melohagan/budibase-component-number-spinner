@@ -10,5 +10,6 @@ A number input that can be controlled with the mouse and keyboard.
 
 Adjust the mininum and maximum values, as well as the speed, decimals and step of the spinner. 
 
-You can check the circular checkbox to loop the max into the min value and vice-versa
+You can check the circular checkbox to loop the max into the min value and vice-versa.
 
+![settings](https://github.com/melohagan/budibase-component-number-spinner/assets/101575380/0a1e76c8-064c-45e1-8b71-6fd992aca88f)
