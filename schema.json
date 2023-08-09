@@ -2,7 +2,7 @@
   "type": "component",
   "metadata": {},
   "schema": {
-    "name": "NumberSpinner",
+    "name": "budibase-component-number-spinner",
     "friendlyName": "Number Spinner",
     "description": "A number input that can be controlled with the mouse and keyboard",
     "icon": "MoveLeftRight",
@@ -12,6 +12,11 @@
         "key": "field",
         "label": "Field",
         "required": true
+      },
+      {
+        "type": "text",
+        "label": "Label",
+        "key": "label"
       },
       {
         "type": "select",
@@ -78,6 +83,42 @@
             "value": "XXXL"
           }
         ]
+      },
+      {
+        "type": "number",
+        "label": "Min",
+        "key": "min",
+        "defaultValue": -1000
+      },
+      {
+        "type": "number",
+        "label": "Max",
+        "key": "max",
+        "defaultValue": 1000
+      },
+      {
+        "type": "number",
+        "label": "Speed",
+        "key": "speed",
+        "defaultValue": 1
+      },
+      {
+        "type": "number",
+        "label": "Decimals",
+        "key": "decimals",
+        "defaultValue": 0
+      },
+      {
+        "type": "text",
+        "label": "Step",
+        "key": "step",
+        "defaultValue": 1
+      },
+      {
+        "type": "boolean",
+        "label": "Circular",
+        "key": "circular",
+        "defaultValue": false
       }
     ]
   }

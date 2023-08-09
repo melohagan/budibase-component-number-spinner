@@ -1,6 +1,6 @@
 {
-  "name": "NumberSpinner",
-  "version": "1.0.0",
+  "name": "budibase-component-number-spinner",
+  "version": "1.1.0",
   "description": "A number input that can be controlled with the mouse and keyboard",
   "license": "MIT",
   "svelte": "index.js",

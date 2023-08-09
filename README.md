@@ -1,4 +1,4 @@
-# NumberSpinner
+# budibase-component-number-spinner
 
 A Budibase **number field form input wrapper** for https://github.com/bohnacker/svelte-number-spinner
 
@@ -6,19 +6,9 @@ A Budibase **number field form input wrapper** for https://github.com/bohnacker/
 
 
 # Description
-A number input that can be controlled with the mouse and keyboard
+A number input that can be controlled with the mouse and keyboard.
 
-Find out more about [Budibase](https://github.com/Budibase/budibase).
+Adjust the mininum and maximum values, as well as the speed, decimals and step of the spinner. 
 
-## Instructions
-
-To build your new  plugin run the following in your Budibase CLI:
-```
-budi plugins --build
-```
-
-You can also re-build everytime you make a change to your plugin with the command:
-```
-budi plugins --watch
-```
+You can check the circular checkbox to loop the max into the min value and vice-versa
 
